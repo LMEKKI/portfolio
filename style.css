@@ -1,0 +1,91 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  overflow: hidden;
+  gap: 25px;
+  background-color: #222831;
+  color: #eeeeee;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 0;
+  width: 80%;
+  align-self: center;
+  border-bottom: 1px solid #00adb5;
+  border-radius: 2px;
+}
+
+.logo {
+  flex-basis: 65%;
+}
+
+nav {
+  flex-basis: 35%;
+}
+
+nav a {
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #00adb5;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.logo p {
+  color: #eeeeee;
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
+/*       end Header       */
+
+section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  align-self: center;
+}
+
+.textcontent {
+  flex-basis: 50%;
+}
+.imgcontent {
+  flex-basis: 50%;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 900;
+  color: #272932;
+}
+
+button {
+  background-color: #00adb5;
+  padding: 4px 18px;
+  border-radius: 5px;
+  border: 1px solid wheat;
+  color: #272932;
+}
